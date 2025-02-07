@@ -18,9 +18,9 @@ interface ServiceType {
 
 const IndivisualService = async ({ params }: ParamsType) => {
   const { id } = await params;
-  const newId = parseInt(id, 10);
+  const newId = parseInt(id);
 
-  const services: ServiceType[] = await getServices;
+  const services: ServiceType[] = await getServices();
 
   const specific = services.find((service) => service.id === newId);
 

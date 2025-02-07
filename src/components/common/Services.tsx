@@ -5,7 +5,7 @@ import SectionContainer from "./SectionContainer";
 import getServices from "@/lib/getServices";
 
 const Services = () => {
-  const services = getServices;
+  const services = getServices();
 
   return (
     <SectionContainer>
