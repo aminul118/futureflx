@@ -12,7 +12,7 @@ const HeroBanner = () => {
         alt="futureflx banner"
       />
       <div className="absolute inset-0 flex flex-col items-center justify-center h-full w-full bg-black/30 text-white space-y-3">
-        <h1 className="text-5xl lg:text-6xl font-bold">FutureFlex</h1>
+        <h1 className="text-5xl lg:text-6xl font-bold">FutureFlx</h1>
         <p>Web & Android Application support </p>
       </div>
     </div>

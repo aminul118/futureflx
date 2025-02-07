@@ -7,7 +7,7 @@ const MainLayout = ({ children }: ChildrenType) => {
   return (
     <>
       <Navbar />
-      <div className="pt-[68px] min-h-[calc(100vh-314px)]">{children}</div>
+      <div className="pt-[68px] min-h-[calc(100vh-362px)]">{children}</div>
       <Footer />
     </>
   );
