@@ -2,12 +2,6 @@ import getServices from "@/lib/getServices";
 import Image from "next/image";
 import React from "react";
 
-export interface ParamsType {
-  params: {
-    id: string;
-  };
-}
-
 interface ServiceType {
   id: number;
   name: string;
@@ -16,11 +10,15 @@ interface ServiceType {
   image: string;
 }
 
+type ParamsType = {
+  params: Promise<{ id: string }>;
+};
+
 const IndivisualService = async ({ params }: ParamsType) => {
   const { id } = await params;
   const newId = parseInt(id);
 
-  const services: ServiceType[] = await getServices();
+  const services: ServiceType[] = getServices();
 
   const specific = services.find((service) => service.id === newId);
 
