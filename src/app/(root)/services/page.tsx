@@ -13,7 +13,7 @@ export const metadata: Metadata = {
 
 const ServicesPage = () => {
   return (
-    <div>
+    <div className="container mx-auto px-2">
       <Services />
     </div>
   );

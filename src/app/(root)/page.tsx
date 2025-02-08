@@ -1,5 +1,5 @@
 import React from "react";
-import HeroBanner from "./component/HeroBanner";
+import HeroBanner from "./components/HeroBanner";
 import Services from "@/components/common/Services";
 import { Metadata } from "next";
 
@@ -14,10 +14,12 @@ export const metadata: Metadata = {
 
 const HomePage = () => {
   return (
-    <div>
+    <>
       <HeroBanner />
-      <Services />
-    </div>
+      <div className="container mx-auto px-2">
+        <Services />
+      </div>
+    </>
   );
 };
 
