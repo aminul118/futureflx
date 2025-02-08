@@ -2,6 +2,7 @@ import React from "react";
 import HeroBanner from "./components/HeroBanner";
 import Services from "@/components/common/Services";
 import { Metadata } from "next";
+import Projects from "./components/Projects";
 
 export const metadata: Metadata = {
   title: "Home | FutureFLX",
@@ -18,6 +19,7 @@ const HomePage = () => {
       <HeroBanner />
       <div className="container mx-auto px-2">
         <Services />
+        <Projects />
       </div>
     </>
   );
