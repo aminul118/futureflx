@@ -1,5 +1,6 @@
 import getServices from "@/lib/getServices";
-import { MetadataType, ParamsType } from "@/lib/types";
+import { ParamsType } from "@/lib/types";
+import { Metadata } from "next";
 import Image from "next/image";
 import React from "react";
 
@@ -11,7 +12,11 @@ interface ServiceType {
   image: string;
 }
 
-export async function generateMetadata({ params }: MetadataType) {
+export async function generateMetadata({
+  params,
+}: {
+  params: Promise<{ id: string }>;
+}): Promise<Metadata> {
   const { id } = await params;
   const services = getServices();
   const service = services.find((s) => s.id.toString() === id);
