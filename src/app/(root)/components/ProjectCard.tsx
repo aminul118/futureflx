@@ -27,7 +27,7 @@ const ProjectCard: React.FC<ProjectCardProps> = ({ project }) => {
         width={60}
         src={image}
         alt={project_name}
-        className=" object-cover rounded-md"
+        className="  w-12 h-12"
       />
       <h3 className="text-lg font-bold mt-2">{project_name}</h3>
       <p className="text-gray-600">{description}</p>

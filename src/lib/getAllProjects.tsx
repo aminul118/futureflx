@@ -29,39 +29,39 @@ const getAllProjects = (): ProjectType[] => {
     },
     {
       id: 3,
-      project_name: "Alpha Sports",
+      project_name: "Easy Doctor",
       description:
         "An e-commerce platform for purchasing sports equipment, featuring filtering, cart management, and secure checkout.",
-      image: "/projects/smart-healtchcare.png",
+      image: "/projects/easy-doc.png",
       technologies: ["MERN Stack", "Redux", "Stripe API"],
-      live_link: "https://alphasports.com",
+      live_link: "https://easy-doctor.netlify.app",
     },
     {
       id: 4,
-      project_name: "Career Counseling",
+      project_name: "Foddie",
       description:
         "A platform providing career advice, job recommendations, and resume-building tools for job seekers.",
-      image: "/projects/smart-healtchcare.png",
+      image: "/projects/foddie.svg",
       technologies: ["React", "Firebase", "Tailwind CSS"],
-      live_link: "https://careercounseling.com",
+      live_link: "https://foddie-resturant.netlify.app",
     },
     {
       id: 5,
       project_name: "FutureFLX",
       description:
         "A web and mobile application development service provider specializing in UI/UX design and SEO.",
-      image: "/projects/smart-healtchcare.png",
+      image: "/favicon.png",
       technologies: ["Next.js", "TypeScript", "Tailwind CSS"],
       live_link: "https://futureflx.com",
     },
     {
       id: 6,
-      project_name: "Bookshop",
+      project_name: "Bistro Boss Resturant",
       description:
         "An online bookstore where users can browse books, add them to a wishlist, and purchase with real-time order tracking.",
-      image: "/projects/smart-healtchcare.png",
+      image: "/projects/bistro-boss.png",
       technologies: ["React", "Node.js", "MongoDB"],
-      live_link: "https://bookshop.com",
+      live_link: "https://bistro-boss-resturant.netlify.app",
     },
   ];
 };
