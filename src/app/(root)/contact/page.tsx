@@ -2,6 +2,13 @@ import React from "react";
 import ContactInfo from "./components/ContactInfo";
 import SectionHeading from "@/components/Typrography/SectionHeading";
 import ContactForm from "./components/ContactForm";
+import { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Contact | FutureFLX",
+  description:
+    "FutureFLX provides expert web development, Android app support, UI/UX design, and SEO services to help businesses grow. Build your future with us!",
+};
 
 const ContactPage = () => {
   return (
