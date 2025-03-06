@@ -1,5 +1,5 @@
 import React from "react";
-import SectionHeading from "../Typrography/SectionHeading";
+import SectionHeading from "../ui/SectionHeading";
 import ServiceCard from "./ServiceCard";
 import getServices from "@/lib/getServices";
 

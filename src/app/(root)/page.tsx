@@ -1,8 +1,8 @@
 import React from "react";
-import HeroBanner from "./components/HeroBanner";
-import Services from "@/components/common/Services";
 import { Metadata } from "next";
-import Projects from "./components/Projects";
+import Services from "@/components/common/Services";
+import HeroBanner from "@/components/Home/HeroBanner";
+import Projects from "@/components/Home/Projects/Projects";
 
 export const metadata: Metadata = {
   title: "Home | FutureFLX",

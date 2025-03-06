@@ -1,4 +1,4 @@
-import SectionHeading from "@/components/Typrography/SectionHeading";
+import SectionHeading from "@/components/ui/SectionHeading";
 import React from "react";
 import ProjectCard from "./ProjectCard";
 import getAllProjects from "@/lib/getAllProjects";

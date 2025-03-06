@@ -1,8 +1,8 @@
 import React from "react";
-import ContactInfo from "./components/ContactInfo";
-import SectionHeading from "@/components/Typrography/SectionHeading";
-import ContactForm from "./components/ContactForm";
+import SectionHeading from "@/components/ui/SectionHeading";
 import { Metadata } from "next";
+import ContactInfo from "@/components/Contact/ContactInfo";
+import ContactForm from "@/components/Contact/ContactForm";
 
 export const metadata: Metadata = {
   title: "Contact | FutureFLX",
